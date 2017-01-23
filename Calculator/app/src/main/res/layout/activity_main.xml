@@ -10,8 +10,76 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.tutorial.calculator.MainActivity">
 
-    <TextView
+    <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:inputType="number"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/editTextNumber"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/editTextNumber"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:text="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/button1"
+                android:layout_weight="1"/>
+
+            <Button
+                android:text="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/button2"
+                android:layout_weight="1" />
+
+            <Button
+                android:text="3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/button3"
+                android:layout_weight="1"/>
+
+            <Button
+                android:text="+"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/button+"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:text="="
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonEquals" />
+        </TableRow>
+    </TableLayout>
+
 </RelativeLayout>

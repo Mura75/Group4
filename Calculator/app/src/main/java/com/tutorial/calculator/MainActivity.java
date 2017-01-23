@@ -2,8 +2,11 @@ package com.tutorial.calculator;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
+
+    EditText editText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
