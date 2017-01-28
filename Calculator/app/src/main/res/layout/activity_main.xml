@@ -58,7 +58,7 @@
                 android:text="+"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:id="@+id/button+"
+                android:id="@+id/buttonPlus"
                 android:layout_weight="1"/>
         </TableRow>
 
@@ -79,6 +79,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/buttonEquals" />
+
+            <Button
+                android:text="-"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonBackspace" />
+
+            <Button
+                android:text="Clear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonClear" />
         </TableRow>
     </TableLayout>
 
