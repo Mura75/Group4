@@ -76,6 +76,8 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
+
+
         buttonClear.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
